@@ -5,30 +5,30 @@
 <li> Kelas  : SE-06-01
 
 1. Source code Image Picker
-![image](ss/guided_code_image_picker)
+![image](guided_code_image_picker.png)
 
 2. Source code Main Dart
-![image](ss/guided_code_maindart)
+![image](guided_code_maindart.png)
 
 3. Source code My API
-![image](ss/guided_code_myapi)
+![image](guided_code_myapi.png)
 
 Hasil output dari guided from camera
 4. Output tampilan awal guided from camera
-![image](ss/output_guided_from_camera)
+![image](output_guided_from_camera.png)
 
 5. Output tampilan kedua guided from camera
-![image](ss/output_guided_from_camera2)
+![image](output_guided_from_camera2.png)
 
 6. Output tampilan ketiga guided from camera
-![image](ss/output_guided_from_camera3)
+![image](output_guided_from_camera3.png)
 
 7. Output tampilan keempat guided from camera
-![image](ss/output_guided_from_camera4)
+![image](output_guided_from_camera4.png)
 
 Hasil output guided dari gallery
 8. Output tampilan awal guided from gallery
-![image](ss/output_guided_upfrom_gallery)
+![image](output_guided_upfrom_gallery.png)
 
 9. Output tampilan kedua guided from camera
-![image](ss/output_guided_upfrom_gallery2)
+![image](output_guided_upfrom_gallery2.png)
