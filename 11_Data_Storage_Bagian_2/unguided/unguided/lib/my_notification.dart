@@ -14,7 +14,7 @@ class _MyNotificationState extends State<MyNotification> {
   @override
   void initState() {
     super.initState();
-    // Membuat pengaturan inisialisasi notifikasi untuk Android
+    // Pengaturan inisialisasi notifikasi untuk Android
     var initializationSettingsAndroid =
         const AndroidInitializationSettings('@mipmap/ic_launcher');
     var initializationSettings =
@@ -35,7 +35,7 @@ class _MyNotificationState extends State<MyNotification> {
               channel.id,
               channel.name,
               channelDescription: channel.description,
-              color: Colors.blue,
+              color: const Color.fromARGB(255, 222, 135, 240),
               icon: "@mipmap/ic_launcher",
             ),
           ),
@@ -46,7 +46,7 @@ class _MyNotificationState extends State<MyNotification> {
     FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
       RemoteNotification? notification = message.notification;
       AndroidNotification? android = message.notification?.android;
-      // Jika notifikasi tersedia, tampilkan dialog
+      // Menampilkan dialog saat notifikasi tersedia
       if (notification != null && android != null) {
         showDialog(
           context: context,
@@ -80,7 +80,7 @@ class _MyNotificationState extends State<MyNotification> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("My Notification"),
-        backgroundColor: Colors.amber,
+        backgroundColor: const Color.fromARGB(255, 222, 135, 240),
         centerTitle: true,
       ),
       body: const Center(
