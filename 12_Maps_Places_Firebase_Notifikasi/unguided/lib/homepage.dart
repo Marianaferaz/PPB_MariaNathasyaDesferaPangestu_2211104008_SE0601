@@ -28,10 +28,10 @@ class _MyHomePageState extends State<MyHomePage> {
         rotation: 0,
       ),
       Marker(
-        markerId: MarkerId("Telkom University Purwokerto"),
-        position: LatLng(-6.9733165, 107.6281415), // Koordinat contoh lainnya
-        infoWindow: InfoWindow(title: 'Telkom University Purwokerto'),
-      ),
+          markerId: MarkerId("Telkom University Purwokerto"),
+          position: LatLng(-7.434912017809685,
+              109.24904967880413), // Contoh koordinat lain
+          infoWindow: InfoWindow(title: 'Telkom University Purwokerto')),
     };
   }
 
@@ -69,9 +69,9 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Google Maps with Place Picker Demo'),
+        title: const Text('Google Maps with Place Picker'),
         centerTitle: true,
-        backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: const Color.fromARGB(255, 222, 135, 240),
         actions: [
           IconButton(
             icon: const Icon(Icons.search),
